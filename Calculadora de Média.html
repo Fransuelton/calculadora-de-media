@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média v1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Calculadora de Média</h1>
+        <p>Insira suas notas abaixo:</p>
+        1º : <input type="number" name="b1" id="b1"><br>
+        2º : <input type="number" name="b2" id="b2"><br>
+        3º : <input type="number" name="b3" id="b3"><br>
+        4º : <input type="number" name="b4" id="b4"><br>
+        <button onclick="calcular()"><p>Calcular Média</p></button><br>
+        
+        <section id="res"><p></p></section>
+    </div>
+    <footer>&copy;EltonMoodz</footer>
+    <script>
+        function calcular() {
+            let nb1 = Number(b1.value)
+            let nb2 = Number(b2.value)
+            let nb3 = Number(b3.value)
+            let nb4 = Number(b4.value)
+            let m = (nb1 + nb2 + nb3 + nb4)/4
+            
+            let res = document.querySelector('section#res')
+            res.innerHTML = `<p>A sua média final é <strong>${m}<strong>.</p>`
+            if(m >= 6){
+                window.alert('PARABÉNS VOCÊ ESTÁ APROVADO! \u{1f601} \u{1f389} \u{2705}')
+            } else {
+                window.alert('INFELIZMENTE VOCÊ ESTÁ REPROVADO! \u{1f614} \u{1f44e} \u{274c} ')
+            }
+        }
+    </script>
+</body>
+</html>
