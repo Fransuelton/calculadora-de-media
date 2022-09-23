@@ -1,0 +1,30 @@
+body {
+    font: normal 15pt Arial;
+    background: white;
+    background-color: rgb(10, 85, 161);
+}
+div{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+}
+button{
+    font-size: 12pt;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+footer{
+    font: normal 15pt Arial;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+section{
+    text-align: center;
+    
+}
