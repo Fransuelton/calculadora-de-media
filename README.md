@@ -1,5 +1,23 @@
-# Calculadora de Média
+# Calculadora de Média 🚀
 
-## Um dos primeiros Projeto feito por mim. (Iniciante na programação).
+Projeto de uma calculadora de média, esse foi um dos primeiros projetos feito por mim.
 
-![Example](https://user-images.githubusercontent.com/107893416/192016793-b09d5cdc-3c34-4448-9727-b48d9a839d46.png)
+<img src="./src/demo.gif">
+
+## Como utilizar :
+
+1 - Clone o repositório
+
+```
+git clone url-do-repositório
+```
+
+2 - Insira as quatro notas ou três, é obtenha a média.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JAVASCRIPT
+
+### Obrigado por visitar meu repositório! ❤️
