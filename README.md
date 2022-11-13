@@ -1,6 +1,6 @@
 # Calculadora de Média 🚀
 
-Projeto de uma calculadora de média, esse foi um dos primeiros projetos feito por mim.
+Projeto de calculadora de Média escolar, esse foi um dos primeiros projetos feito por mim.
 
 <img src="./src/demo.gif">
 
@@ -12,7 +12,7 @@ Projeto de uma calculadora de média, esse foi um dos primeiros projetos feito p
 git clone url-do-repositório
 ```
 
-2 - Insira as quatro notas ou três, é obtenha a média.
+2 - Insira as quatro notas, é obtenha a média.
 
 ## Tecnologias Utilizadas
 
