@@ -1,6 +1,6 @@
 # Calculadora de Média 🚀
 
-Projeto de calculadora de Média. utilizei a média 6 para aprovação, caso a média seja menor estára em recuperação
+Projeto de calculadora de média simples, utilizei a média 6 para aprovação caso a média seja menor estará em recuperação.
 
 <img src="./src/demo.gif">
 
