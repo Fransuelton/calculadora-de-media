@@ -1,6 +1,6 @@
 # Calculadora de Média 🚀
 
-Projeto de calculadora de Média escolar, esse foi um dos primeiros projetos feito por mim.
+Projeto de calculadora de Média. utilizei a média 6 para aprovação, caso a média seja menor estára em recuperação
 
 <img src="./src/demo.gif">
 
@@ -12,7 +12,7 @@ Projeto de calculadora de Média escolar, esse foi um dos primeiros projetos fei
 git clone url-do-repositório
 ```
 
-2 - Insira as quatro notas, é obtenha a média.
+2 - Insira as notas, é obtenha a média.
 
 ## Tecnologias Utilizadas
 

@@ -10,14 +10,14 @@ function calcular() {
     } else {
         if (m >= 6) {
             window.alert('Parabéns Você está aprovado(a)! 😁🎉✅')
-            res.innerHTML = `<p>A sua média final é <strong>${m}<strong>`
+            res.innerHTML = `<p>A sua média final é <strong>${m.toFixed(1)}</strong>`
         } else {
-            if (m >= 4) {
+            if (m < 6) {
                 window.alert("Você está em recuperação. 🤨📚")
-                res.innerHTML = `<p>A sua média final é <strong>${m}<strong>`
+                res.innerHTML = `<p>A sua média final é <strong>${m.toFixed(1)}</strong>`
             } else {
                     window.alert("Infelizmente você está reprovado(a). 😔❌")
-                    res.innerHTML = `<p>A sua média final é <strong>${m}<strong>`
+                    res.innerHTML = `<p>A sua média final é <strong>${m.toFixed(1)}</strong>`
             }
         }
     }
