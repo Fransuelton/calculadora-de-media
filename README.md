@@ -2,7 +2,7 @@
 
 Projeto de calculadora de média simples, utilizei a média 6 para aprovação caso a média seja menor estará em recuperação.
 
-<img src="./src/demo.gif">
+[<img src="./src/demo.gif">]
 
 ## Como utilizar :
 
