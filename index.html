@@ -7,33 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Média</title>
 
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
 </head>
 
 <body>
-    <div>
-        <h1>Calculadora de Média</h1>
+    <main>
+        <section class="area">
+            <h1>Calculadora de Média</h1>
 
-        <p>Insira suas notas abaixo:</p>
+            <p>Insira suas notas abaixo:</p>
+            <label for="n1">1º :</label>
+            <input type="number" name="n1" id="n1" placeholder="Ex: 6,0"><br><br>
 
-        <label for="n1">1º :</label>
-        <input type="number" name="n1" id="n1" placeholder="Ex: 6,0"><br>
+            <label for="n2">2º :</label>
+            <input type="number" name="n2" id="n2"><br><br>
 
-        <label for="n2">2º :</label>
-        <input type="number" name="n2" id="n2"><br>
+            <label for="n3">3º :</label>
+            <input type="number" name="n3" id="n3"><br><br>
 
-        <label for="n3">3º :</label>
-        <input type="number" name="n3" id="n3"><br>
+            <label for="n4">4º :</label>
+            <input type="number" name="n4" id="n4"><br><br>
 
-        <label for="n4">4º :</label>
-        <input type="number" name="n4" id="n4"><br>
-
-        <button onclick="calcular()">Calcular Média</button>
+            <button onclick="calcular()">Calcular Média</button>
+        </section>
 
         <section id="res">
             <p></p>
         </section>
-    </div>
+    </main>
 
     <footer>&copy;Fransuelton</footer>
 
