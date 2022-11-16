@@ -2,16 +2,24 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-    
+
 }
+
 body {
     background-color: rgb(10, 85, 161);
 }
 
-button{
+button {
     font-size: medium;
 }
 
 section {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    margin: 100px;
+    padding: 100px;
     text-align: center;
 }
