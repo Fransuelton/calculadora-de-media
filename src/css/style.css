@@ -4,17 +4,18 @@
     padding: 10px;
     min-width: 320px;
     max-width: 500px;
+    transform: translateY(50%);
     margin: 0 auto;
 }
 
 @media (max-width: 576px) {
     .area {
-        background-color: rgb(253, 246, 246);
+        background-color: white;
         border-radius: 20px;
         padding: 10px;
-        width: 320px;
         min-width: 320px;
         max-width: 900px;
+        transform: translateY(50%);
         margin: 0 auto;
     }
 }
