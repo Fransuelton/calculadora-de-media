@@ -17,9 +17,8 @@ section {
     text-align: center;
 }
 
-footer {
+.container-footer{
     color: white;
-    margin: 100px;
-    padding: 100px;
     text-align: center;
+    padding-top: 200px;
 }
