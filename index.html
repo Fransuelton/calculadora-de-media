@@ -17,24 +17,35 @@
 </head>
 
 <body>
-    <main>
-        <section class="area">
+    <main class="main">
+        <section class="calculator-container">
             <h1>Calculadora de Média</h1>
 
             <p>Insira suas notas abaixo:</p>
-            <label for="n1">1º :</label>
-            <input type="number" name="n1" id="n1" placeholder="Ex: 6,0"><br><br>
 
-            <label for="n2">2º :</label>
-            <input type="number" name="n2" id="n2"><br><br>
+            <div class="grades-container">
+                <div>
+                    <label for="n1">1º :</label>
+                    <input type="number" name="n1" id="n1" placeholder="Ex: 6,0">
+                </div>
 
-            <label for="n3">3º :</label>
-            <input type="number" name="n3" id="n3"><br><br>
+                <div>
+                    <label for="n2">2º :</label>
+                    <input type="number" name="n2" id="n2">
+                </div>
 
-            <label for="n4">4º :</label>
-            <input type="number" name="n4" id="n4"><br><br>
+                <div>
+                    <label for="n3">3º :</label>
+                    <input type="number" name="n3" id="n3">
+                </div>
 
-            <button onclick="calcular()">Calcular Média</button>
+                <div>
+                    <label for="n4">4º :</label>
+                    <input type="number" name="n4" id="n4">
+                </div>
+
+                <button type="button" onclick="calcular()">Calcular Média</button>
+            </div>
 
             <div id="res">
             </div>
@@ -44,7 +55,7 @@
     <div class="container-footer">
         <footer>&copy;Fransuelton</footer>
     </div>
-    
+
     <script src="./src/index.js"></script>
 </body>
 
