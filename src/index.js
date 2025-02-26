@@ -1,24 +1,18 @@
-function calcular() {
-    let nota1 = Number(n1.value)
-    let nota2 = Number(n2.value)
-    let nota3 = Number(n3.value)
-    let nota4 = Number(n4.value)
-    let m = (nota1 + nota2 + nota3 + nota4) / 4
-
-    if (n1.value == 0 && n2.value == 0 && n3.value == 0 && n4.value == 0) {
-        alert("⚠️ERRO! Verifique os dados e tente novamente.")
-    } else {
-        if (m >= 6) {
-            window.alert('Parabéns Você está aprovado(a)! 😁🎉✅')
-            res.innerHTML = `<p>A sua média final é <strong>${m.toFixed(1)}</strong>`
-        } else {
-            if (m < 6) {
-                window.alert("Você está em recuperação. 🤨📚")
-                res.innerHTML = `<p>A sua média final é <strong>${m.toFixed(1)}</strong>`
-            } else {
-                window.alert("Infelizmente você está reprovado(a). 😔❌")
-                res.innerHTML = `<p>A sua média final é <strong>${m.toFixed(1)}</strong>`
-            }
-        }
+"use strict";
+function calculate() {
+    let note1 = Number(document.getElementById('n1').value);
+    let note2 = Number(document.getElementById('n2').value);
+    let note3 = Number(document.getElementById('n3').value);
+    let note4 = Number(document.getElementById('n4').value);
+    let average = (note1 + note2 + note3 + note4) / 4;
+    let res = document.getElementById('res');
+    if (average >= 6) {
+        res.innerHTML = `<p>Parabéns! Você foi aprovado(a) com a média final <strong>${average.toFixed(1)}</strong></p>`;
+    }
+    else if (average < 6) {
+        res.innerHTML = `<p>Você está em recuperação com a média final <strong>${average.toFixed(1)}</strong></p>`;
+    }
+    else {
+        res.innerHTML = `<p>Infelizmente você foi reprovado(a) com a média final <strong>${average.toFixed(1)}</strong></p>`;
     }
 }
